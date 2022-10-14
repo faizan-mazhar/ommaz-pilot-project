@@ -1,24 +1,22 @@
-<!-- eslint-disable vue/multi-word-component-names -->
-<!-- name must be exactly "error.vue" - Nuxt requirement -->
 <template>
   <div class="error-page">
     <h1 v-if="error.statusCode === 404">
-      {{ $t('Page not found') }}
+      {{ $t("Page not found") }}
     </h1>
     <h1 v-else>
-      {{ $t('An error occurred') }}
+      {{ $t("An error occurred") }}
     </h1>
     <SfButton :link="localePath('/')">
-      {{ $t('Back to Home page') }}
+      {{ $t("Back to Home page") }}
     </SfButton>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@nuxtjs/composition-api';
-import type { PropType } from '@nuxtjs/composition-api';
-import { SfButton } from '@storefront-ui/vue';
-import type { NuxtError } from '@nuxt/types';
+import { defineComponent } from "@nuxtjs/composition-api";
+import type { PropType } from "@nuxtjs/composition-api";
+import { SfButton } from "@storefront-ui/vue";
+import type { NuxtError } from "@nuxt/types";
 
 export default defineComponent({
   components: {

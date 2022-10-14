@@ -1,31 +1,21 @@
 <template>
   <div>
-    <HomePage/>
+    <HomePage />
   </div>
 </template>
 <script lang="ts">
-import {
-defineComponent
-} from '@nuxtjs/composition-api';
+import { defineComponent } from "@nuxtjs/composition-api";
 
-import HomePage from '../pages/Home.vue';
+import HomePage from "../pages/Home.vue";
 
 export default defineComponent({
-  name: 'DefaultLayout',
+  name: "DefaultLayout",
 
   components: {
-    HomePage
-},
-
-  // setup() {
-  //   const route = useRoute();
-
-  //   return {
-  //     route,
-  //   };
-  // },
+    HomePage,
+  },
   head: {
-    link: [{ rel: 'stylesheet', href: '/_nuxt/fonts.css' }],
+    link: [{ rel: "stylesheet", href: "/_nuxt/fonts.css" }],
   },
 });
 </script>
