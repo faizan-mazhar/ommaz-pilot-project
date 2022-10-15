@@ -127,7 +127,7 @@ export default defineComponent({
     }
 
     .get-touch-button {
-      height: 50px;
+      padding: 20px;
       border-radius: 4px;
       text-transform: unset;
       background-color: #01a4b7;
@@ -136,10 +136,11 @@ export default defineComponent({
       font-weight: 600;
       margin-right: 20px;
       margin-top: 30px;
+      transition: transform 0.2s;
 
       &:hover {
-        height: 60px;
         background-color: #007e91;
+        transform: scale(1.1);
       }
       @media (max-width: 1024px) {
         width: 90%;

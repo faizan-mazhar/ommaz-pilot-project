@@ -95,16 +95,5 @@ export default defineComponent({
       max-width: 400px;
     }
   }
-
-  .get-touch-button {
-    height: 50px;
-    border-radius: 4px;
-    text-transform: unset;
-    background-color: #01a4b7;
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 600;
-    margin-right: 20px;
-  }
 }
 </style>

@@ -123,7 +123,7 @@ export default defineComponent({
   }
 
   .get-touch-button {
-    height: 50px;
+    padding: 20px;
     border-radius: 4px;
     text-transform: unset;
     background-color: #01a4b7;
@@ -132,9 +132,10 @@ export default defineComponent({
     font-weight: 600;
     margin-right: 20px;
     margin: 20px auto;
+    transition: transform 0.2s;
 
     &:hover {
-      height: 60px;
+      transform: scale(1.1);
       background-color: #ffffff;
       color: #006b6e;
     }
