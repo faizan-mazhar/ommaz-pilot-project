@@ -229,9 +229,9 @@ export default defineComponent({
           bottom: 0;
           left: 0;
           right: 0;
-          height: 100%;
+          height: 0%;
           width: 100%;
-          opacity: 0;
+          opacity: 1;
           transition: 0.5s ease;
           background-color: rgba($color: #01a4b7, $alpha: 0.8);
           display: flex;
@@ -263,7 +263,7 @@ export default defineComponent({
 
         .overlay {
           &:hover {
-            opacity: 1;
+            height: 100%;
           }
         }
       }

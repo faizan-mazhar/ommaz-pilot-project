@@ -127,22 +127,6 @@ export default defineComponent({
     }
   }
 
-  .get-touch-button {
-    padding: 20px;
-    border-radius: 4px;
-    text-transform: unset;
-    background-color: #01a4b7;
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 600;
-    margin-right: 20px;
-    transition: transform 0.2s;
-
-    &:hover {
-      transform: scale(1.1);
-      background-color: #007e91;
-    }
-  }
 }
 
 .sf-more-info-left {
@@ -198,23 +182,6 @@ export default defineComponent({
       padding-top: 30px;
       line-height: 1.6;
       max-width: 540px;
-    }
-  }
-
-  .get-touch-button {
-    padding: 20px;
-    border-radius: 4px;
-    text-transform: unset;
-    background-color: #01a4b7;
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 600;
-    margin-right: 20px;
-    transition: transform 0.2s;
-
-    &:hover {
-      background-color: #007e91;
-      transform: scale(1.1);
     }
   }
 }

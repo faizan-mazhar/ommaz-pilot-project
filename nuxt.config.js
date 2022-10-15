@@ -108,6 +108,7 @@ export default () => {
     styleResources: {
       scss: [require.resolve('@storefront-ui/shared/styles/_helpers.scss', { paths: [process.cwd()] })],
     },
+    css: ['@/assets/styles.scss'],
     build: {
       extractCSS: true,
       optimizeCSS: true,

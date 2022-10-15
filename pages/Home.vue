@@ -10,8 +10,8 @@
     <ShipBanner />
     <CustomSupport />
     <CustomClearance />
+    <Support />
     <Footer />
-    <SubFooter />
   </div>
 </template>
 <script lang="ts" type="module">
@@ -27,8 +27,8 @@ import Services from "~/components/Services.vue";
 import ShipBanner from "~/components/ShipBanner.vue";
 import CustomSupport from "~/components/CustomSupport.vue";
 import CustomClearance from "~/components/CustomClearance.vue";
+import Support from "~/components/Support.vue";
 import Footer from "~/components/Footer.vue";
-import SubFooter from "~/components/SubFooter.vue";
 
 export default defineComponent({
   name: "HomePage",
@@ -43,8 +43,8 @@ export default defineComponent({
     CustomSupport,
     SfLoader,
     CustomClearance,
+    Support,
     Footer,
-    SubFooter,
   },
 
   setup() {},

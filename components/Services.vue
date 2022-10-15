@@ -179,28 +179,5 @@ export default defineComponent({
       }
     }
   }
-
-  .get-touch-button {
-    padding: 20px;
-    border-radius: 4px;
-    text-transform: unset;
-    background-color: #01a4b7;
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 600;
-    margin-right: 20px;
-    transition: transform 0.2s;
-
-    &:hover {
-      transform: scale(1.1);
-      background-color: #007e91;
-    }
-
-    @media (max-width: 1024px) {
-      width: 90%;
-      margin-top: 20px;
-      margin-right: 40px;
-    }
-  }
 }
 </style>

@@ -121,18 +121,9 @@ export default defineComponent({
       }
     }
   }
-
+  
   .get-touch-button {
-    padding: 20px;
-    border-radius: 4px;
-    text-transform: unset;
-    background-color: #01a4b7;
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 600;
-    margin-right: 20px;
     margin: 20px auto;
-    transition: transform 0.2s;
 
     &:hover {
       transform: scale(1.1);
