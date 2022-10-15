@@ -131,7 +131,7 @@ export default defineComponent({
     color: #ffffff;
     font-weight: 600;
     margin-right: 20px;
-    margin: 0 auto;
+    margin: 20px auto;
 
     &:hover {
       height: 60px;

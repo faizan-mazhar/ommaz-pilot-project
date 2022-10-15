@@ -75,6 +75,8 @@ export default defineComponent({
   background-image: url("../assets/images/icons/homebanner.png");
   @media (max-width: 1024px) {
     background-position: center;
+    background-size: cover;
+    height: 740px;
   }
 
   .banner-main {
@@ -133,6 +135,7 @@ export default defineComponent({
       color: #ffffff;
       font-weight: 600;
       margin-right: 20px;
+      margin-top: 30px;
 
       &:hover {
         height: 60px;

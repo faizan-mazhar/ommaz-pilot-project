@@ -94,7 +94,7 @@ export default defineComponent({
         }
 
         @media (max-width: 1024px) {
-          width: 90%;
+          width: 100%;
           margin-top: 20px;
           margin-right: 40px;
         }
