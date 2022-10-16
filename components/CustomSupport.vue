@@ -198,6 +198,12 @@ export default defineComponent({
 
     @media (max-width: 1024px) {
       gap: 20px;
+
+      .heading-text {
+        font-size: 20px;
+        color: #3d4d62;
+        font-weight: bold;
+      }
     }
 
     .title {
@@ -220,18 +226,19 @@ export default defineComponent({
       .image-card {
         position: relative;
         .image {
-          width: 257px;
+          display: block;
+          width: 100%;
+          height: auto;
         }
 
         .overlay {
           position: absolute;
-          top: 0;
           bottom: 0;
           left: 0;
           right: 0;
-          height: 0%;
+          overflow: hidden;
           width: 100%;
-          opacity: 1;
+          height: 0;
           transition: 0.5s ease;
           background-color: rgba($color: #01a4b7, $alpha: 0.8);
           display: flex;
@@ -260,9 +267,8 @@ export default defineComponent({
             align-items: center;
           }
         }
-
-        .overlay {
-          &:hover {
+        &:hover {
+          .overlay {
             height: 100%;
           }
         }
